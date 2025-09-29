@@ -1,0 +1,8 @@
+services:
+  dify2openai:
+    image: dify2openai:latest
+    container_name: dify2openai
+    ports:
+      - "3099:3099"
+    network_mode: host
+    restart: always
